@@ -1,0 +1,196 @@
+h1.nev {
+    color: rgb(172, 165, 232);
+  }
+
+h2.rolam {
+    color: aliceblue;
+  }
+h2 {
+  color: black;
+}
+
+body {
+background-color:rgb(220, 218, 253);
+min-height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.menu {
+float: left;
+width: 20%;
+text-align: center;
+background-color: rgb(220, 218, 253);
+
+}
+
+.menu a {
+background-color: #333;
+padding: 1vw;
+margin-top: 7px;
+display: block;
+width: 100%;
+color: rgb(255, 255, 255);
+border: 5px solid ;
+border-color: #ed0eed #3454c9;
+animation: rotate 1.5s infinite;
+text-decoration: none;
+transition: 0.5s;
+display: block;
+font-size: 0.8vw;
+}
+
+
+@keyframes rotate {
+    50% {
+      border-color: #3454c9 #ed0eed;
+    }
+    100% {
+      border-color: #ed0eed #3454c9;
+    }
+ }  
+
+.main {
+float: left;
+width: 60%;
+padding: 0 20px;
+}
+
+.right {
+background-color: #333;
+float: left;
+width: 19.5vw;
+padding: 1.5vh;
+margin-top: 0.7vw;
+text-align: center;
+border: 4px solid white;
+border-radius: 3%;
+color: rgb(220, 218, 253);
+
+
+}
+
+@media only screen and (max-width: 620px) {
+/* For mobile phones: */
+.menu, .main, .right {
+width: 100%;
+}
+}
+
+.header {
+background-color:#333;
+padding:1.5vw;
+padding:1.5vh;
+text-align: center;
+
+}
+
+.fo {
+overflow: auto;
+margin: 10px;
+}
+
+div.footer {
+    text-align: center;
+    background-color: #333;
+    position: static;
+    left: 0;
+    bottom: 0;
+    height: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-top: 3px solid blueviolet;
+    border-bottom: 3px solid blueviolet ;
+    margin-top: auto;
+    width: 100%;
+    padding-top: 15px;
+    color: white;
+}
+div.menu a.active {
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+div.menu a:hover:not(.active) {
+background-color: blueviolet;
+color: white;
+}
+
+div.right img {
+  width: 90%;
+  border-radius: 2%;
+
+}
+
+.email {
+  color: white;
+}
+div.zene {
+  width: 25%;
+}
+.kep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+body.keplink {
+  background-image: url(img/logo.png)
+  }
+
+body.urlap {
+  background-image: url(img/urlaphatter.jpg);
+  color: azure;
+  background-size: 1920px 1080px;
+ }
+
+ body.tablazat {
+  background-image: url(img/iskola1.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+ }
+
+ table,tr,th,td
+    {
+        border: 2px solid blueviolet;
+        background-color: #292929ee;
+    }
+
+    table {
+      text-align: center;
+      color: white;
+    }
+
+    
+      
+      img.evszakok {
+      border: 7px solid rgb(47, 67, 75);
+      border-radius: 5%;
+      width: 11vw;
+      margin: 3vh;
+      transition: 0.5s;
+      }
+      
+      img.evszakok:hover {
+      transform: scale(1.08);
+      }
+      
+      img.evszakok:hover + p {
+      font-size: xx-large
+      }
+      
+      p.evszakok {
+      font-size: large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      transition: 0.5s;
+       }
+      
+       body.evszakok {
+        background-color: rgb(220, 218, 253);
+       }
